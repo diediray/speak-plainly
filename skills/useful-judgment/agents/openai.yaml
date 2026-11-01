@@ -1,0 +1,4 @@
+interface:
+  display_name: "说人话 · Speak Plainly"
+  short_description: "接续已有成果，依据材料作判断，给出清楚可用的答复"
+  default_prompt: "使用 $useful-judgment 推进当前任务，给出有依据的判断和可直接使用的成果。"
