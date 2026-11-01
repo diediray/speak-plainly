@@ -28,7 +28,7 @@
 
 **通过 Codex 安装：** 将本仓库地址交给 Codex，要求使用 `$skill-installer` 安装仓库中的 `skills/useful-judgment`。
 
-**手动安装：** 在本仓库的 Releases 页面下载 `useful-judgment-v1.2.0.zip`，解压后将整个 `useful-judgment` 文件夹放进技能目录。Codex 可使用 `~/.agents/skills/`；已有安装使用 `~/.codex/skills/` 时也可沿用。技能列表更新后即可使用。
+**手动安装：** [下载技能ZIP](https://raw.githubusercontent.com/diediray/speak-plainly/v1.2.0/downloads/useful-judgment-v1.2.0.zip)，解压后将整个 `useful-judgment` 文件夹放进技能目录。Codex 可使用 `~/.agents/skills/`；已有安装使用 `~/.codex/skills/` 时也可沿用。技能列表更新后即可使用。
 
 ## 它怎样工作
 

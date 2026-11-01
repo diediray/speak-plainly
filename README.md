@@ -26,7 +26,7 @@ The host selects skills from their descriptions. Installation makes the skill av
 
 **With Codex:** give Codex this repository's address and ask it to use `$skill-installer` to install `skills/useful-judgment`.
 
-**Manually:** download `useful-judgment-v1.2.0.zip` from Releases and place the extracted `useful-judgment` folder in your skills directory. Codex supports `~/.agents/skills/`; an existing `~/.codex/skills/` setup can also be used. Use it once the skill list refreshes.
+**Manually:** [download the skill ZIP](https://raw.githubusercontent.com/diediray/speak-plainly/v1.2.0/downloads/useful-judgment-v1.2.0.zip) and place the extracted `useful-judgment` folder in your skills directory. Codex supports `~/.agents/skills/`; an existing `~/.codex/skills/` setup can also be used. Use it once the skill list refreshes.
 
 ## How it works
 
