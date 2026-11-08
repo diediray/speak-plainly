@@ -26,12 +26,13 @@ The host selects skills from their descriptions. Installation makes the skill av
 
 **With Codex:** give Codex this repository's address and ask it to use `$skill-installer` to install `skills/useful-judgment`.
 
-**Manually:** [download the skill ZIP](https://raw.githubusercontent.com/diediray/speak-plainly/v1.2.0/downloads/useful-judgment-v1.2.0.zip) and place the extracted `useful-judgment` folder in your skills directory. Codex supports `~/.agents/skills/`; an existing `~/.codex/skills/` setup can also be used. Use it once the skill list refreshes.
+**Manually:** [download the skill ZIP](https://raw.githubusercontent.com/diediray/speak-plainly/main/downloads/useful-judgment-2026-11-08.zip) and place the extracted `useful-judgment` folder in your skills directory. Codex supports `~/.agents/skills/`; an existing `~/.codex/skills/` setup can also be used. Use it once the skill list refreshes.
 
 ## How it works
 
 - Recover the current draft, existing results, and agreed decisions before continuing the task.
-- Judge the question at the level asked, with the deciding evidence beside the judgment.
+- Put the requested scope in the judgment and keep deciding evidence and useful conditions beside it.
+- Compare choices by the effect the user wants, addressing differences that change the direction before local details.
 - Connect the relationships supported by the material before summarizing; let new evidence change the answer or plan.
 - Merge repeated wording by its function, keeping useful conditions, transitions, and relationships.
 

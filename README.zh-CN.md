@@ -28,12 +28,13 @@
 
 **通过 Codex 安装：** 将本仓库地址交给 Codex，要求使用 `$skill-installer` 安装仓库中的 `skills/useful-judgment`。
 
-**手动安装：** [下载技能ZIP](https://raw.githubusercontent.com/diediray/speak-plainly/v1.2.0/downloads/useful-judgment-v1.2.0.zip)，解压后将整个 `useful-judgment` 文件夹放进技能目录。Codex 可使用 `~/.agents/skills/`；已有安装使用 `~/.codex/skills/` 时也可沿用。技能列表更新后即可使用。
+**手动安装：** [下载技能ZIP](https://raw.githubusercontent.com/diediray/speak-plainly/main/downloads/useful-judgment-2026-11-08.zip)，解压后将整个 `useful-judgment` 文件夹放进技能目录。Codex 可使用 `~/.agents/skills/`；已有安装使用 `~/.codex/skills/` 时也可沿用。技能列表更新后即可使用。
 
 ## 它怎样工作
 
 - 找回底稿、已有结果和已确认的决定，再接着完成本轮任务。
-- 按用户所问的尺度作判断，把关键依据放在判断旁边。
+- 把所问的对象和范围写进结论，依据与必要条件就近说明。
+- 比较时按用户要的效果取舍，先处理改变方向的问题，再处理局部细节。
 - 先接清材料分别支持的关系，再提炼概括；新证据会改变正文或方案。
 - 按句子承担的作用合并重复，保留实验条件、因果衔接与角色关系。
 
