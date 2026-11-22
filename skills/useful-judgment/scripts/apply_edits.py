@@ -29,7 +29,7 @@ def apply_edits(cases, edit_records):
             answer = answer.replace(before, after, 1)
         if not answer.strip():
             raise ValueError(f"Empty answer for {case['id']}")
-        output.append({"id": case["id"], "answer": answer.strip()})
+        output.append({"id": case["id"], "answer": answer})
     return output
 
 

@@ -28,10 +28,11 @@
 
 **通过 Codex 安装：** 将本仓库地址交给 Codex，要求使用 `$skill-installer` 安装仓库中的 `skills/useful-judgment`。
 
-**手动安装：** [下载技能ZIP](https://raw.githubusercontent.com/diediray/speak-plainly/main/downloads/useful-judgment-2026-11-09.zip)，解压后将整个 `useful-judgment` 文件夹放进技能目录。Codex 可使用 `~/.agents/skills/`；已有安装使用 `~/.codex/skills/` 时也可沿用。技能列表更新后即可使用。
+**手动安装：** [下载当前仓库ZIP](https://github.com/diediray/speak-plainly/archive/refs/heads/main.zip)，解压后将其中的 `skills/useful-judgment` 文件夹放进技能目录。更新时沿用原安装位置。
 
 ## 它怎样工作
 
+- 从当前问题选择步骤，复用已有结果，取消无实际用途的工作。
 - 找回底稿、已有结果和已确认的决定，再接着完成本轮任务。
 - 把所问的对象和范围写进结论，依据与必要条件就近说明。
 - 比较时按用户要的效果取舍，先处理改变方向的问题，再处理局部细节。
@@ -39,13 +40,15 @@
 - 按信息增量校订答复、附注、图注和图内文字，删去不增加事实、解释、判断或用法的自我说明与制作备注；保留有用的方法和条件。
 - 按句子承担的作用合并重复，保留实验条件、因果衔接与角色关系。
 
-主体保持五段。复杂说明可借助只读校订；简单回答直接完成。
+主说明用于日常回答和协作，编辑、修订及详细示例按任务读取。需要同时核对复杂关系或关联改动时，再使用独立校订。
 
 ## 文件
 
 - [技能主体](skills/useful-judgment/SKILL.md)
 - [让证据改变决定](skills/useful-judgment/references/evidence-to-decision.md)
 - [校订方法](skills/useful-judgment/references/reply-editing.md)
+- [编辑范围](skills/useful-judgment/references/editing-guide.md)
+- [修订与单项撤销](skills/useful-judgment/references/revision.md)
 - [交付示例](skills/useful-judgment/references/accepted-examples.md)
 - [验证说明](EVALUATION.md)
 - [更新记录](CHANGELOG.md)
@@ -53,6 +56,10 @@
 ## 贡献
 
 欢迎用具体问题改进：提供原请求、实际答复，以及答复漏掉或多加了什么。优先修改已有方法，让改进体现在答案里。
+
+## 来源与融合
+
+编辑底座吸收了 [MrGeDiao/shuorenhua](https://github.com/MrGeDiao/shuorenhua)，并保留本项目形成的有用判断、已有工作接续及去平凡真方法。两部分均按 [MIT许可](LICENSE) 分发，保留原作者署名。
 
 ## 许可
 

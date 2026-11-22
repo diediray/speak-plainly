@@ -1,4 +1,20 @@
-# Speak Plainly · 说人话 v1.2.0
+# Speak Plainly · 说人话 — 2026-11-22
+
+The current main branch combines the shuorenhua editing foundation with Speak Plainly's judgment and collaboration methods.
+
+- Reuse existing results and choose work for the question at hand.
+- Remove empty caveats, repetition, and meaningless production notes.
+- Check summaries against their facts, comparisons, and conditions.
+- Keep useful relationships when rewriting and support selective undo.
+- Use the repository's current `skills/useful-judgment` directory to install or update.
+
+[Download the current repository](https://github.com/diediray/speak-plainly/archive/refs/heads/main.zip) · [中文说明](README.zh-CN.md)
+
+The editing foundation is adapted from [MrGeDiao/shuorenhua](https://github.com/MrGeDiao/shuorenhua). Original copyright notices are retained under MIT.
+
+## Earlier release notes
+
+### Speak Plainly · 说人话 v1.2.0
 
 Make a clear call. Explain what matters. Follow through.
 
